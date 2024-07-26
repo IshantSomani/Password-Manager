@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(cors());
 connectDb();
 
-pp.get("/", (req, res) => {
+app.get("/", (req, res) => {
     res.send("Hello ");
   });
 
