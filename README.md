@@ -1,51 +1,40 @@
+# Password Manager Authentication
 
-# Password Manager Authantication
+Build a complete Password Manager Responsive MERN stack application using ReactJS, Redux, Node.js, MongoDB, and Express.
 
-Build a complete Password Manager Responsive MERN | ReactJS, Redux, Nodejs, MongoDB, Express.
+## Features
 
--	Ability: To easily create, modify and also remove or update login credentials on other accounts.
-
--	Password Generator: Generate secure passwords for added Account Protection.
-
--	Multiple User Support Independent management of credentials for multiple users.
-
--	Safety: Safeguards user login data through encrypted storage, safety on the internet and digital identity management.
-
+- **Credential Management**: Easily create, modify, remove, or update login credentials for other accounts.
+- **Password Generator**: Generate secure passwords for enhanced account protection.
+- **Multiple User Support**: Independent management of credentials for multiple users.
+- **Security**: Safeguards user login data through encrypted storage, ensuring safety on the internet and digital identity management.
 
 ## Environment Variables
 
-To run this project, you will need to add the following environment variables to your .env file
+To run this project, you will need to add the following environment variables to your .env file:
 
-#### Backend
-`MONGODB_URI`
+### Backend
+      MONGODB_URI=your_mongodb_connection_string
 
-#### Frontend
-`VITE_API_URL`
-
+### Frontend
+    VITE_API_URL=your_backend_api_url
 
 
 ## Libraries
 
-#### Backend
-    npm i express
-    npm i mongoose
-    npm i cors
-    npm i dotenv
-    npm i bcrypt
-    npm i jsonwebtoken
-    npm i jwt-decode
-    npm i nodemon
+### Backend
+```bash
+npm i express mongoose cors dotenv bcrypt jsonwebtoken jwt-decode nodemon
+```
 
-#### Frontend
-    npm i react-router-dom
-    npm i react-redux
-    npm i react-icons
-    npm i axios
-    npm install @mui/material @emotion/react @emotion/styled
-    npm install @mui/icons-material
-    npm install @reduxjs/toolkit
-    npm i react-redux
-    npm i jwt-decode
+### Frontend
+```bash
+npm i react-router-dom react-redux react-icons axios @mui/material @emotion/react @emotion/styled @mui/icons-material @reduxjs/toolkit jwt-decode
+```
+
+## Database
+- MongoDB
+
 ## Tech Stack
 
 **Client:** React, Redux, TailwindCSS
@@ -54,29 +43,44 @@ To run this project, you will need to add the following environment variables to
 
 **Database:** MongoDB
 
+**Payment Processing:** Stripe
+
+
+
 ## Run Locally
 
-Clone the project
+Clone the project:
 
 ```bash
-  git clone https://link-to-project
+git clone https://github.com/IshantSomani/Password-Manager.git
+cd Password-Manager
 ```
 
-Go to the project directory
+Install dependencies for both frontend and backend:
 
 ```bash
-  cd my-project
+# Install backend dependencies
+cd backend
+npm install
+
+# Install frontend dependencies
+cd ../frontend
+npm install
+```
+Set up environment variables as described above.
+
+Start the backend server:
+```bash
+cd backend
+npm start
 ```
 
-Install dependencies
+In a new terminal, start the frontend development server:
 
 ```bash
-  npm install
+cd frontend
+npm run dev
 ```
 
-Start the server
-
-```bash
-  npm run start
-```
-
+#### Contributing
+Contributions are welcome! Please feel free to submit a Pull Request.
