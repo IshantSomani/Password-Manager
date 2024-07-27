@@ -29,7 +29,8 @@ npm i express mongoose cors dotenv bcrypt jsonwebtoken jwt-decode nodemon
 
 ### Frontend
 ```bash
-npm i react-router-dom react-redux react-icons axios @mui/material @emotion/react @emotion/styled @mui/icons-material @reduxjs/toolkit jwt-decode
+npm i react-router-dom react-redux react-icons axios @reduxjs/toolkit jwt-decode
+npm i @mui/material @emotion/react @emotion/styled @mui/icons-material 
 ```
 
 ## Database
